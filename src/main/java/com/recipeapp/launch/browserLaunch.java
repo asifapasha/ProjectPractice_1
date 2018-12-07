@@ -4,14 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class browserLaunch {
-	
+
 	//Get the chrome browser, create instance and Access browsers to launch it
 	//Create Method
-	
+	WebDriver driver;
 	public void launchDriver (){
 		 System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
 			
-			WebDriver driver = new ChromeDriver();
+			driver = new ChromeDriver();
 
 			driver.get("https://receipe-app.herokuapp.com");
 		

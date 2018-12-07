@@ -1,4 +1,4 @@
-package com.recipeapp.po;
+package com.recipeapp.launch;
 
 public class shoppinglistpage {
 	
